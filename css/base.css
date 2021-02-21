@@ -1,3 +1,165 @@
 body {
     margin: 0;
+    font-family: Times,serif;
+}
+
+:root {
+    --theme-color: rgb(157,23,45);
+}
+
+.text-grey-900 {
+    color: rgb(57,47,43);
+}
+
+.text-grey-400 {
+    color: rgb(137,137,161);;
+}
+
+.profile-heading {
+    font-family: "Rockwell Bold",serif;
+    font-size: 25px!important;
+    color: var(--theme-color);
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.details-heading {
+    font-family: "Rockwell Bold",serif;
+    font-size: 30px!important;
+    color: var(--theme-color);
+    border-bottom: 1px solid;
+    padding-bottom: 16px;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0;
+    text-decoration: none;
+    margin-right: 150px;
+}
+
+.main {
+    max-width: 55rem;
+    min-width: 55rem;
+    border-radius: 6px;
+    --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    background: white;
+    padding: 40px;
+    margin: 50px auto;
+}
+
+.main-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.profile {
+    width: 25%;
+}
+
+.details {
+    width: 71%;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.profile-image img {
+    max-width: 100%;
+}
+
+.profile-image {
+    padding: 17px;
+    max-width: 100%;
+}
+
+#profile-name {
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(57,47,43);
+    font-style: normal;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.personal-details span{
+    display: block;
+}
+
+.profile-detail__subheading {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.personal-details__info {
+    margin: 10px 0;
+}
+
+.personal-details__info span {
+    margin-bottom: 5px;
+}
+
+.personal-details__info a {
+    font-size: 17px;
+}
+
+.profile-detail__subheading a {
+    font-weight: normal!important;
+}
+
+.details-inner {
+    margin-bottom: 25px;
+}
+
+.about-me {
+    font-size: 17px;
+}
+
+.education {
+    margin-bottom: 20px;
+}
+
+.education span{
+    display: block;
+}
+
+.education-heading {
+    font-size: 19px;
+    font-weight: bold;
+    margin: 3px 0;
+}
+
+.education-subheading {
+    font-size: 17px;
+}
+
+.projects-list p{
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+svg {
+    width: 18px;
+    display: inline-block;
+}
+
+.social-links {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.social-links span {
+    display: inline-block;
+    margin-bottom: 0!important;
+    margin-left: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: rgb(57,47,43);
+}
+
+.details-inner span {
+    display: block;
+    margin: 13px 0px;
 }
